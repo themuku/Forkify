@@ -98,6 +98,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const newFeature = function () {
+  console.log('new feature');
+};
+newFeature();
 // Publisher subscriber pattern
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks);
