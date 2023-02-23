@@ -1,6 +1,6 @@
 // import icons from '../img/icons.svg'; //Parcel v1
 import icons from 'url:../../img/icons.svg'; //Parcel v2
-import { Fraction } from 'fractional';
+import { numberToFraction as Fraction } from '../helpers.js';
 import View from './view.js';
 
 class RecipeView extends View {
